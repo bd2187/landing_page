@@ -10,3 +10,30 @@ p {
     margin: 0;
     padding: 0;
 }
+
+.header {
+    height: 3.5em; /* 56px / 16px */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em;
+    background: #f8f9fa;
+}
+
+.header__logo {
+    font-size: 20px;
+}
+
+.header__signInButton {
+    font-size: 15px;
+    padding: 0.8em 0.875em;
+
+    border-radius: 5px;
+    color: #fff;
+    background: #0476d9;
+    border: none;
+}
+
+.overlay {
+    background: navy;
+}
