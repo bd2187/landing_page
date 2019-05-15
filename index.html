@@ -4,32 +4,44 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Document</title>
+        <title>Landing Page</title>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous"
+        />
+        <link href="normalize.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
     </head>
     <body>
         <header class="header">
             <div class="header__logo">
-                Logo
+                Start Bootstrap
             </div>
             <button class="header__signInButton">
-                Sign in
+                Sign In
             </button>
         </header>
         <section>
             <!-- Start .overlay -->
             <div class="overlay">
-                <h1 class="overlay__title">
-                    Build a landing page for your business or project and
-                    generate more leads!
-                </h1>
-                <form class="overlay__emailForm" action="#">
-                    <input
-                        class="overlay__emailInput"
-                        type="text"
-                        placeholder="Enter your email..."
-                    />
-                    <button class="overlay__signUpBtn">Sign up!</button>
-                </form>
+                <div class="overlay__innerWrap">
+                    <h1 class="overlay__title">
+                        Build a landing page for your business or project and
+                        generate more leads!
+                    </h1>
+                    <form class="overlay__emailForm" action="#">
+                        <input
+                            class="overlay__email overlay__emailInput"
+                            type="text"
+                            placeholder="Enter your email..."
+                        />
+                        <button class="overlay__email overlay__signUpBtn">
+                            Sign up!
+                        </button>
+                    </form>
+                </div>
             </div>
             <!--  End .overlay -->
 
@@ -142,17 +154,19 @@
 
             <!-- Start .overlay -->
             <div class="overlay">
-                <h1 class="overlay__title">
-                    Ready to get started? Sign up now!
-                </h1>
-                <form class="overlay__emailForm" action="#">
-                    <input
-                        class="overlay__emailInput"
-                        type="text"
-                        placeholder="Enter your email..."
-                    />
-                    <button class="overlay__signUpBtn">Sign up!</button>
-                </form>
+                <div class="overlay__innerWrap">
+                    <h1 class="overlay__title">
+                        Ready to get started? Sign up now!
+                    </h1>
+                    <form class="overlay__emailForm" action="#">
+                        <input
+                            class="overlay__emailInput"
+                            type="text"
+                            placeholder="Enter your email..."
+                        />
+                        <button class="overlay__signUpBtn">Sign up!</button>
+                    </form>
+                </div>
             </div>
             <!--  End .overlay -->
         </section>
