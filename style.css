@@ -17,7 +17,6 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 0 2em;
-    background: #f8f9fa;
 }
 
 .header__logo {
@@ -34,6 +33,7 @@ p {
     border: none;
 }
 
+/****** Start overlay styling ******/
 .overlay {
     background: navy;
     padding: 7.9375em 0;
@@ -74,4 +74,36 @@ p {
     border-radius: 5px;
     border: none;
     font-size: 1.188em;
+}
+/****** End overlay styling ******/
+
+/****** Start featureIcons styling ******/
+
+.featureIcons {
+    padding: 5.625em 1.625em;
+}
+
+.featureIcons__item {
+    text-align: center;
+}
+
+.featureIcons__icon {
+    font-size: 55px;
+    margin: 0.5em 0;
+}
+
+.featureIcons__title {
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+}
+
+.featureIcons__description {
+    font-size: 1.25em;
+}
+/****** End featureIcons styling ******/
+
+/****** Shared styles ******/
+.header,
+.featureIcons {
+    background: #f8f9fa;
 }
