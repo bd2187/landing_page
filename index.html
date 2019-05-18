@@ -78,9 +78,9 @@
 
             <!-- Start .showcase -->
             <div class="showcase">
-                <div class="showcase__image"></div>
+                <div class="showcase__container showcase__image"></div>
 
-                <div class="showcase__text">
+                <div class="showcase__container showcase__text">
                     <h2 class="showcase__title">Fully Responsive Design</h2>
                     <p class="showcase__description">
                         When you use a theme created by Start Bootstrap, you
@@ -90,9 +90,9 @@
                     </p>
                 </div>
 
-                <div class="showcase__image"></div>
+                <div class="showcase__container showcase__image"></div>
 
-                <div class="showcase__text">
+                <div class="showcase__container showcase__text">
                     <h2 class="showcase__title">Updated For Bootstrap 4</h2>
                     <p class="showcase__description">
                         Newly improved, and full of great utility classes,
@@ -102,9 +102,9 @@
                     </p>
                 </div>
 
-                <div class="showcase__image"></div>
+                <div class="showcase__container showcase__image"></div>
 
-                <div class="showcase__text">
+                <div class="showcase__container showcase__text">
                     <h2 class="showcase__title">Easy to Use & Customize</h2>
                     <p class="showcase__description">
                         Landing Page is just HTML and CSS with a splash of SCSS
@@ -120,25 +120,27 @@
             <div class="testimonials">
                 <h1 class="testimonials__title">What people are saying...</h1>
 
-                <div class="testimonials__inner">
-                    <!-- <img /> -->
-                    <p>Margaret E.</p>
-                    <p>"This is fantastic! Thanks so much guys!"</p>
+                <div class="testimonial testimonials__inner">
+                    <div class="testimonial__imagePlaceholder"></div>
+                    <p class="testimonial__person">Margaret E.</p>
+                    <p class="testimonial__quote">
+                        "This is fantastic! Thanks so much guys!"
+                    </p>
                 </div>
 
-                <div class="testimonials__inner">
-                    <!-- <img /> -->
-                    <p>Fred S.</p>
-                    <p>
+                <div class="testimonial testimonials__inner">
+                    <div class="testimonial__imagePlaceholder"></div>
+                    <p class="testimonial__person">Fred S.</p>
+                    <p class="testimonial__quote">
                         "Bootstrap is amazing. I've been using it to create lots
                         of super nice landing pages."
                     </p>
                 </div>
 
-                <div class="testimonials__inner">
-                    <!-- <img /> -->
-                    <p>Sarah W.</p>
-                    <p>
+                <div class="testimonial testimonials__inner">
+                    <div class="testimonial__imagePlaceholder"></div>
+                    <p class="testimonial__person">Sarah W.</p>
+                    <p class="testimonial__quote">
                         "Thanks so much for making these free resources
                         available to us!"
                     </p>
@@ -154,11 +156,13 @@
                     </h1>
                     <form class="overlay__emailForm" action="#">
                         <input
-                            class="overlay__emailInput"
+                            class="overlay__email overlay__emailInput"
                             type="text"
                             placeholder="Enter your email..."
                         />
-                        <button class="overlay__signUpBtn">Sign up!</button>
+                        <button class="overlay__email overlay__signUpBtn">
+                            Sign up!
+                        </button>
                     </form>
                 </div>
             </div>
