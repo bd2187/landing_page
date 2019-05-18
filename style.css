@@ -125,6 +125,41 @@ p {
     font-size: 1.2em;
     line-height: 1.5;
 }
+/****** End overlay styling ******/
+
+/****** Start testimonials styling ******/
+.testimonials {
+    background: gold;
+    padding: 7em 0;
+}
+
+.testimonials__title,
+.testimonials__inner {
+    text-align: center;
+}
+
+.testimonials__inner {
+    margin: 1.5em auto;
+}
+
+.testimonials__title {
+    margin-bottom: 40px;
+}
+
+.testimonial__imagePlaceholder {
+    background: grey;
+    width: 11.8em;
+    height: 11.8em;
+    border-radius: 50%;
+    margin: 1.25em auto;
+}
+
+.testimonial__person,
+.testimonial__quote {
+    margin: 0.75em auto;
+}
+
+/****** End testimonials styling ******/
 
 /****** Shared styles ******/
 .header,
