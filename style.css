@@ -102,8 +102,33 @@ p {
 }
 /****** End featureIcons styling ******/
 
+/****** Start overlay styling ******/
+.showcase__container {
+    width: 100%;
+}
+
+.showcase__image {
+    background: gold;
+    height: 480px;
+}
+
+.showcase__text {
+    padding: 2em 2.5em;
+    line-height: 1.2;
+}
+.showcase__title {
+    margin-bottom: 27px;
+    font-size: 2em;
+}
+
+.showcase__description {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
 /****** Shared styles ******/
 .header,
-.featureIcons {
+.featureIcons,
+.showcase__text {
     background: #f8f9fa;
 }
