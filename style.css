@@ -83,6 +83,10 @@ p {
     padding: 5.625em 1.625em;
 }
 
+.featureIcons__wrap {
+    max-width: 1078px;
+}
+
 .featureIcons__item {
     text-align: center;
 }
@@ -201,4 +205,49 @@ footer {
 .featureIcons,
 .showcase__text {
     background: #f8f9fa;
+}
+
+/****** Media Queries ******/
+@media only screen and (min-width: 769px) {
+    .header {
+        padding: 0 7em;
+    }
+
+    .overlay {
+        padding: 10em 0;
+    }
+
+    .overlay__innerWrap {
+        width: 80%;
+        max-width: 815px;
+    }
+
+    .overlay__title {
+        font-size: 2.75em;
+    }
+
+    .overlay__emailForm {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .overlay__emailInput {
+        width: 80%;
+    }
+
+    .overlay__signUpBtn {
+        width: 18%;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .featureIcons__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .featureIcons__item {
+        width: 32%;
+    }
 }
