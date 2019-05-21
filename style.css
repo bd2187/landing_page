@@ -241,6 +241,11 @@ footer {
 }
 
 @media only screen and (min-width: 990px) {
+    .featureIcons {
+        padding-top: 9em;
+        padding-bottom: 9em;
+    }
+
     .featureIcons__wrap {
         display: flex;
         justify-content: space-between;
@@ -249,5 +254,44 @@ footer {
 
     .featureIcons__item {
         width: 32%;
+    }
+
+    .showcase {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .showcase__container {
+        width: 50%;
+    }
+
+    .showcase__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 6em;
+    }
+
+    .showcase__design_text {
+        order: 1;
+    }
+
+    .showcase__design_image {
+        order: 2;
+    }
+
+    .showcase__updated_image {
+        order: 3;
+    }
+    .showcase__updated_text {
+        order: 4;
+    }
+
+    .showcase__customize_text {
+        order: 5;
+    }
+
+    .showcase__customize_image {
+        order: 6;
     }
 }
