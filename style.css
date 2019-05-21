@@ -174,7 +174,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 75%;
+    width: 374px;
     margin: 1.25em auto;
     font-size: 0.9em;
 }
@@ -192,7 +192,7 @@ footer {
 }
 
 .socialMedia {
-    width: 27%;
+    width: 135px;
     margin: 27px auto;
     display: flex;
     justify-content: space-between;
@@ -202,8 +202,7 @@ footer {
 
 /****** Shared styles ******/
 .header,
-.featureIcons,
-.showcase__text {
+.featureIcons {
     background: #f8f9fa;
 }
 
@@ -293,5 +292,25 @@ footer {
 
     .showcase__customize_image {
         order: 6;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    .footerLinks {
+        justify-content: space-between;
+    }
+
+    .copyright {
+        text-align: left;
+    }
+
+    .socialMedia {
+        margin: 0;
     }
 }
