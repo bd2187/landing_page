@@ -294,6 +294,18 @@ footer {
         order: 6;
     }
 
+    .testimonials__wrap {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1105px;
+        margin: 0 auto;
+    }
+
+    .testimonials__inner {
+        width: 30%;
+        margin: inherit;
+    }
+
     footer {
         display: flex;
         align-items: center;
@@ -312,5 +324,10 @@ footer {
 
     .socialMedia {
         margin: 0;
+    }
+
+    .bottom_overlay {
+        max-height: 330px;
+        padding: 3em 0;
     }
 }
